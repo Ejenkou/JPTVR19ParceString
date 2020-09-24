@@ -15,7 +15,9 @@ public class JPTVR19ParceString {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       App app = new App();
+       app.run();
+        System.out.println("Проэкт работы со строкой");
     }
     
 }
